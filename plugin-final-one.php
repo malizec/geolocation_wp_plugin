@@ -35,7 +35,7 @@ function database_connection() {
   if ( ONLINE == false) {
     return new mysqli("localhost", "root", "root", "ip2location");
   } else {
-    return new mysqli("mysql443.loopia.se", "nenad@w29677", "nenadmashni1", "webexclusives_com_db_2");
+    return new mysqli("localhost", "malizec", "malizec_pass", "malizec_geolocation");
   }
 }
 
